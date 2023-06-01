@@ -31,7 +31,7 @@ function App() {
   }
   return (
     <>
-      <h1 className='title' >ejercicio 5 de usuarios random V3</h1>
+      <h1 className='title' >Ejercicio 5 de usuarios random V3</h1>
       <div className="buttons">
         <button className='btn-add btn' onClick={generarUsuario}>Agregar usuario</button>
         <button className='btn-remove btn' onClick={eliminarUsuario}>Eliminar usuario</button>
