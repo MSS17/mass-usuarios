@@ -23,7 +23,7 @@ function Card({id,name,image,activo,cambiarEstado,}) {
 					/>
 				)}
 				<h2 className='card-title-user'>
-					{activo ? name : 'Suspendida'}
+					{activo ? name : 'Suspendido'}
 				</h2>
 			</div>
 		</article>

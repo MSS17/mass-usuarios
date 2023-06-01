@@ -24,18 +24,14 @@
 .btn-add:hover {
     background: rgb(2, 112, 162);
 }
-.btn-add {
-    background: rgb(0, 153, 255);
+.btn-remove:hover {
+    background: rgb(255, 0, 0);
 }
 .btn-remove {
     background: rgb(200, 43, 22);
 }
 .title {
     margin: 80px;
-    text-align: center;
-}
-.buttons {
-    margin: -40px auto 40px;
     text-align: center;
 }
 
