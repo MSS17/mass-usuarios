@@ -1,17 +1,10 @@
 import './Card.css';
 
-function Card({
-	id,
-	name ,
-	image,
-	activo,
-	cambiarEstado,
-}) {
+function Card({id,name,image,activo,cambiarEstado,}) {
 	const cambiandoEstado = (id) => {
 		cambiarEstado(id);
 	};
 	let className = activo ? '' : ' disabled ';
-
 	return (
 		<article className='card'>
 			<div>
